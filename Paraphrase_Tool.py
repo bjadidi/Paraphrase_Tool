@@ -1,7 +1,7 @@
 import openai
 
 def gpt3 (stext):
-    openai.api_key = "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"
+    openai.api_key = "API_KEY"
     response = openai.Completion.create(
         engine= "text-davinci-002", 
         prompt= stext,
